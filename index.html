@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Montana Snack</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+
+    <nav id="header-nav" class="navbar navbar-expand-sm navbar-light bg-primary">
+        <div class="container-fluid">
+            <img src="images/montana-logo.png" alt="" width="100px">
+            <a class="navbar-brand" href="index.html"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav text-center">
+                    <a class="nav-link active wine-color rounded" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active wine-color rounded" aria-current="page" href="menu-categories.html">Menu</a>
+                    <a id="call-btn" class="nav-link rounded p-sm-2 d-sm-block wine-color" href="tel:81-715-619">
+                        <span><i class="fas fa-phone-volume"></i></span> 81-715-619
+                        <span id="xs-deliver" class="text-center visible-xs d-block">
+							* Free Delivery
+						</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="mb-5 shadow-box">
+            <img src="images/jumbotron_1200.jpg" alt="picutre of the resturant" class="w-100" />
+        </div>
+
+        <div id="home-tiles" class="row">
+            <div class="col-md-6 col-sm-12">
+                <a href="menu-categories.html">
+                    <div id="menu-tile">
+                        <img src="images/menu-tile.jpg" alt="" class="w-100">
+                        <span>menu</span></div>
+                </a>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <a href="https://goo.gl/maps/vPe1sFt5Doreq4SVA" target="_blank">
+                    <div id="map-tile">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105723.64668467492!2d36.113269246273774!3d34.09862536042944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1522083609a61d97%3A0x10f3f56c062c01a1!2sMontana%20Snack!5e0!3m2!1sen!2slb!4v1574235359911!5m2!1sen!2slb"
+                            width="100%" height="250" frameborder="0" style="border: 0" allowfullscreen=""></iframe>
+                        <span>map</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white pt-5">
+        <div class="container">
+            <div class="row text-center text-sm-start">
+                <section class="col-sm-4">
+                    <span class="wine-color font-weight-bold h6">Hours</span><br /> Everyday form 12 Pm to 12 Am.
+                    <hr class="d-sm-none" />
+                </section>
+                <section class="col-sm-4">
+                    <span class="wine-color font-weight-bold h6">Address</span><br /> Baalbek | Deir El Ahmar | Main road.
+                    <hr class="d-sm-none" />
+                </section>
+                <section class="col-sm-4">
+                    <span class="wine-color font-weight-bold h6">Testimonials</span><br />
+                    <p>Great food 👍,It's a must-do while in Deir el Ahmar.</p>
+                    <p>
+                        Excellent Tawouk, also the burgers are good, And the price is fair.
+                    </p>
+                    <p>
+                        Must to visit. The food are delicious. I recommend to try the fajita sandwich, and ofcours the cocktail as a dessert.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
